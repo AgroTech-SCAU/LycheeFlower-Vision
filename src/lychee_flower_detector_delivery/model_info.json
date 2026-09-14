@@ -1,0 +1,26 @@
+{
+  "model_id": "litchi_flower_cluster_detect",
+  "model_version": "v1.0",
+  "task": "object_detection",
+  "count_target": "large_flower_cluster",
+  "class_names": {
+    "0": "lizhihua"
+  },
+  "architecture": "yolo26s.pt",
+  "input_size": 640,
+  "model_max_stride": 32,
+  "default_confidence_threshold": 0.25,
+  "default_nms_iou_threshold": 0.7,
+  "weights_file": "models/best.pt",
+  "weights_sha256": "DE456F2A1E040B49B58EEFA4E2F2662AA40D0AA56D46643FAF1E2049713E1D6A",
+  "validated_ultralytics_version": "8.4.92",
+  "license": "AGPL-3.0",
+  "validation": {
+    "dataset_images": 73,
+    "precision": 0.823779,
+    "recall": 0.731700,
+    "map50": 0.839510,
+    "map50_95": 0.457123,
+    "result_directory": "output/evaluation_2"
+  }
+}
