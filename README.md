@@ -12,7 +12,7 @@
 ## 1. 克隆和安装
 
 ```bash
-git clone <你的GitHub仓库地址>
+git clone https://github.com/AgroTech-SCAU/LycheeFlower-Vision.git
 cd lizhihua
 python -m venv .venv
 ```
